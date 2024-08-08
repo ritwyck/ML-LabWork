@@ -1,69 +1,62 @@
 # ML-LabWork
 
-Welcome to My Machine Learning Coursework Repository
-This repository contains a collection of assignments completed as part of my Machine Learning coursework at Maastricht University for the academic year 2023-24. The projects within this repository cover various essential machine learning techniques, including Decision Trees, Nearest Neighbors, ROC Analysis, Clustering, and Linear Regression models. Each assignment delves into specific methodologies, their implementation, and analysis. Below, you will find an overview of each assignment along with instructions on how to run the code and interpret the results.
+Welcome to my repository of Machine Learning assignments completed as part of the coursework at Maastricht University for the 2023-24 academic year. This collection covers various fundamental topics in machine learning, including Decision Trees, Nearest Neighbors, ROC Analysis, Clustering, and Linear Regression Models. Below you will find an overview of each assignment, along with instructions on how to run the code and interpret the results.
 
-Table of Contents
-Assignment 1: Decision Trees
-Assignment 2: Nearest Neighbors
-Assignment 3: ROC Analysis
-Assignment 4: Clustering
-Assignment 5: Linear Regression Models
-Results
-References
-Assignment 1: Decision Trees
-In this assignment, we explored the concept of Decision Trees for classification and regression tasks. The primary objectives were:
+## Table of Contents
+1. [Assignment 1: Decision Trees](#assignment-1-decision-trees)
+2. [Assignment 2: Nearest Neighbors](#assignment-2-nearest-neighbors)
+3. [Assignment 3: ROC Analysis](#assignment-3-roc-analysis)
+4. [Assignment 4: Clustering](#assignment-4-clustering)
+5. [Assignment 5: Linear Regression Models](#assignment-5-linear-regression-models)
+6. [Results and Reports](#results-and-reports)
+7. [References](#references)
 
-Understanding the structure and function of decision trees.
-Implementing decision trees for both classification and regression problems.
-Evaluating model performance using metrics like accuracy for classification and Mean Squared Error (MSE) for regression.
-Understanding and applying techniques like pruning to avoid overfitting.
-Files:
+## Assignment 1: Decision Trees
+In this assignment, we explored Decision Trees as a method for both classification and regression tasks. The primary objectives were:
+- Understanding the theory behind Decision Trees.
+- Implementing Decision Trees using scikit-learn.
+- Evaluating model performance through metrics like accuracy, Gini impurity, and mean squared error.
 
-Decision_Tree_Classification.ipynb: Contains the code for training and evaluating decision tree models for classification tasks.
-Decision_Tree_Regression.ipynb: Contains the code for training and evaluating decision tree models for regression tasks.
-Assignment 2: Nearest Neighbors
-This assignment focused on the k-Nearest Neighbors (k-NN) algorithm for both classification and regression. Key learning outcomes included:
+### Files
+- `Decision-Trees.ipynb`: Contains the code for training and evaluating Decision Trees for different tasks.
 
-Understanding the k-NN algorithm and its applications.
-Implementing k-NN for classification and regression tasks.
-Analyzing the impact of different values of k on model performance.
-Evaluating model performance using cross-validation techniques.
-Files:
+## Assignment 2: Nearest Neighbors
+This assignment focused on the k-Nearest Neighbors (k-NN) algorithm, a simple yet effective technique for classification and regression. Key learning outcomes included:
+- Understanding the working of the k-NN algorithm.
+- Implementing k-NN for classification tasks and analyzing its performance.
+- Experimenting with different values of k and distance metrics to see their effects on model performance.
 
-KNN_Classification.ipynb: Script for implementing and evaluating k-NN for classification tasks.
-KNN_Regression.ipynb: Script for implementing and evaluating k-NN for regression tasks.
-Assignment 3: ROC Analysis
-In this assignment, we focused on the Receiver Operating Characteristic (ROC) analysis, a crucial tool for evaluating binary classification models. The main objectives were:
+### Files
+- `Nearest-Neighbors.ipynb`: Script for implementing and evaluating the k-NN algorithm.
 
-Understanding the concept and significance of the ROC curve and AUC (Area Under the Curve).
-Generating ROC curves for various models.
-Comparing model performance using AUC as a metric.
-Interpreting ROC curves to assess the trade-offs between sensitivity and specificity.
-Files:
+## Assignment 3: ROC Analysis
+In this assignment, we performed Receiver Operating Characteristic (ROC) analysis to evaluate binary classifiers. The objectives were:
+- Understanding the ROC curve and AUC (Area Under the Curve) metric.
+- Comparing the performance of different classifiers using ROC curves.
+- Implementing ROC analysis in Python and interpreting the results.
 
-ROC_Analysis.ipynb: Code for generating and analyzing ROC curves for different classification models.
-Assignment 4: Clustering
-This assignment dealt with unsupervised learning techniques, specifically clustering methods. The key objectives were:
+### Files
+- `ROC-Analysis.ipynb`: Code for generating and interpreting ROC curves and AUC scores for various classifiers.
 
-Understanding the concepts of clustering and different clustering algorithms such as K-Means and Hierarchical Clustering.
-Implementing and comparing clustering algorithms on various datasets.
-Evaluating the performance of clustering models using metrics like silhouette score and within-cluster sum of squares (WCSS).
-Visualizing clustering results to interpret the structure of the data.
-Files:
+## Assignment 4: Clustering
+This assignment introduced clustering techniques, focusing on K-means and hierarchical clustering. The key learning outcomes were:
+- Understanding the concept and applications of clustering.
+- Implementing K-means and hierarchical clustering algorithms.
+- Evaluating clustering results using metrics such as silhouette score and inertia.
 
-KMeans_Clustering.ipynb: Contains the code for implementing K-Means clustering and evaluating its performance.
-Hierarchical_Clustering.ipynb: Script for implementing hierarchical clustering and analyzing its results.
-Assignment 5: Linear Regression Models
-In this assignment, we explored Linear Regression, one of the foundational techniques in machine learning for predictive modeling. The primary goals were:
+### Files
+- `Clustering.ipynb`: Contains the implementation of K-means and hierarchical clustering with evaluation.
 
-Understanding the mathematical foundation of linear regression.
-Implementing simple and multiple linear regression models.
-Evaluating model performance using metrics like R-squared, MSE, and residual analysis.
-Addressing potential issues such as multicollinearity and heteroscedasticity in regression models.
-Files:
+## Assignment 5: Linear Regression Models
+In the final assignment, we explored Linear Regression models for predictive analysis. The objectives were:
+- Understanding the principles of linear regression.
+- Implementing linear regression models for both simple and multiple regression tasks.
+- Evaluating model performance using metrics like R-squared and Mean Squared Error (MSE).
 
-Linear_Regression_Simple.ipynb: Contains the code for simple linear regression analysis.
-Linear_Regression_Multiple.ipynb: Script for multiple linear regression, including diagnostics and performance evaluation.
-Results
-Detailed analyses, discussions, and visualizations of the results for each assignment can be found within the corresponding Jupyter notebooks. These results provide insights into model performance, challenges faced, and the effectiveness of different algorithms across diverse datasets.
+### Files
+- `Linear-Regression.ipynb`: Script for building and evaluating linear regression models.
+
+## Results and Reports
+Detailed analysis, results, and discussions are included in the respective Jupyter notebooks for each assignment. Additionally, there are comprehensive reports accompanying each assignment, providing in-depth explanations, methodologies, and interpretations of the results obtained from the models.
+
+Feel free to explore the code, use it as a reference for your own projects, and provide feedback or suggestions for improvement.
