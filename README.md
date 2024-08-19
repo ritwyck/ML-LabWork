@@ -1,13 +1,12 @@
 # ML-LabWork
 
-Welcome to my repository of Machine Learning assignments completed as part of the coursework at Maastricht University for the 2023-24 academic year. This collection covers various fundamental topics in machine learning, including Decision Trees, Nearest Neighbors, ROC Analysis, Clustering, and Linear Regression Models. Below you will find an overview of each assignment, along with instructions on how to run the code and interpret the results.
+Welcome to my repository of Machine Learning assignments completed as part of the coursework at Maastricht University for the 2023-24 academic year. This collection covers various fundamental topics in machine learning, including Decision Trees, Nearest Neighbors, Clustering, and Linear Regression Models. Below you will find an overview of each assignment, along with instructions on how to run the code and interpret the results.
 
 ## Table of Contents
 1. [Assignment 1: Decision Trees](#assignment-1-decision-trees)
 2. [Assignment 2: Nearest Neighbors](#assignment-2-nearest-neighbors)
-3. [Assignment 3: ROC Analysis](#assignment-3-roc-analysis)
-4. [Assignment 4: Clustering](#assignment-4-clustering)
-5. [Assignment 5: Linear Regression Models](#assignment-5-linear-regression-models)
+4. [Assignment 3: Clustering](#assignment-3-clustering)
+5. [Assignment 4: Linear Regression Models](#assignment-4-linear-regression-models)
 6. [Results and Reports](#results-and-reports)
 7. [References](#references)
 
@@ -29,16 +28,7 @@ This assignment focused on the k-Nearest Neighbors (k-NN) algorithm, a simple ye
 ### Files
 - `Nearest-Neighbors.ipynb`: Script for implementing and evaluating the k-NN algorithm.
 
-## Assignment 3: ROC Analysis
-In this assignment, we performed Receiver Operating Characteristic (ROC) analysis to evaluate binary classifiers. The objectives were:
-- Understanding the ROC curve and AUC (Area Under the Curve) metric.
-- Comparing the performance of different classifiers using ROC curves.
-- Implementing ROC analysis in Python and interpreting the results.
-
-### Files
-- `ROC-Analysis.ipynb`: Code for generating and interpreting ROC curves and AUC scores for various classifiers.
-
-## Assignment 4: Clustering
+## Assignment 3: Clustering
 This assignment introduced clustering techniques, focusing on K-means and hierarchical clustering. The key learning outcomes were:
 - Understanding the concept and applications of clustering.
 - Implementing K-means and hierarchical clustering algorithms.
@@ -47,7 +37,7 @@ This assignment introduced clustering techniques, focusing on K-means and hierar
 ### Files
 - `Clustering.ipynb`: Contains the implementation of K-means and hierarchical clustering with evaluation.
 
-## Assignment 5: Linear Regression Models
+## Assignment 4: Linear Regression Models
 In the final assignment, we explored Linear Regression models for predictive analysis. The objectives were:
 - Understanding the principles of linear regression.
 - Implementing linear regression models for both simple and multiple regression tasks.
